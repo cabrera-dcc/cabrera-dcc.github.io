@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="es" class=""> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="application-name" content="Portfolio"/>
+	<meta name="description" content="Una breve presentación"/>
+	<meta name="author" content="cabrera-dcc (https://github.com/cabrera-dcc)"/>
+	<meta name="version" content="Beta2 (rev. 20150819)"/>
+	<meta name="license" content="Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional de Creative Commons"/>
+	<meta name="keywords" content="portfolio,sysadmin,devops,info,contact,about"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>DCC | Info</title>
+	<link rel="icon" type="image/png" href="../images/dcc.ico"/>
+	<link rel="stylesheet" type="text/css" href="../css/resources/normalize-3.0.2.min.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/resources/jquery-ui-1.11.4.min.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/resources/slicknav.min.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/resources/custom-hover.min.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/pf/common.min.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/pf/info.min.css"/>
+</head>
+<body>
+	<noscript>Your browser does not support JavaScript!</noscript>
+	<nav>
+		<ul id="menu" class="medium-menu">
+			<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a class="hvr-shutter-out-vertical" hreflang="es" rel="bookmark" target="_self" type="text/html" href="../index.htm" itemprop="url"><span itemprop="title">PRINCIPAL</span></a></li>
+			<li id="current-page" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a class="hvr-shutter-out-vertical" hreflang="es" rel="bookmark" target="_self" type="text/html" href="info-dcc.htm"><span itemprop="title">MÁS INFO</span></a></li>
+		</ul>
+	</nav>
+	<div class="borderline"></div>
+	<div class="social-networks">
+		<ul>
+			<li id="linkedin-logo" class="logo"><a hreflang="es" rel="author" target="_blank" type="text/html" href="https://www.linkedin.com/in/cabreradcc"></a></li>
+			<li id="github-logo" class="logo"><a hreflang="es" rel="bookmark" target="_blank" type="text/html" href="https://github.com/cabrera-dcc"></a></li>
+			<li id="twitter-logo" class="logo"><a hreflang="es" rel="bookmark" target="_blank" type="text/html" href="https://twitter.com/cabrera_dcc"></a></li>
+			<li id="facebook-logo" class="logo"><a hreflang="es" rel="bookmark" target="_blank" type="text/html" href="https://facebook.com/cabrera.dcc"></a></li>
+		</ul>
+	</div>
+	<header>
+	</header>
+	<main>	
+		<div id="tabs">
+			<ul>
+				<li><a hreflang="es" rel="tag" target="_self" type="text/html" href="#personal-info">Sobre mí</a></li>
+				<li><a hreflang="es" rel="tag" target="_self" type="text/html" href="#contact-info">Cómo contactar</a></li>
+				<li><a hreflang="es" rel="tag" target="_self" type="text/html" href="#portfolio-info">Sobre este sitio</a></li>
+			</ul>
+			<div itemscope itemtype="http://schema.org/Person" id="personal-info">
+				<div id="photo"></div>
+				<div class="info">
+					<p itemprop="givenName">Daniel Cabrera</p>
+					<p>27 años (Córdoba - España)</p>
+					<div itemprop="jobTitle"><p>Administrador de Sistemas Informáticos y</p>
+					<p>Desarrollador de Aplicaciones Web</p></div>
+				</div>
+			</div>
+			<div itemscope itemtype="http://schema.org/Person" id="contact-info">
+				<div class="info">
+					<p>Puedes encontrarme en redes sociales como LinkedIn, Facebook o Twitter (enlaces arriba)</p>
+					<p>o enviarme un correo a la dirección <a itemprop="email" rel="author" href="mailto:danic.cabrera@gmail.com">danic.cabrera@gmail.com</a>.</p>
+				</div>
+			</div>
+			<div id="portfolio-info">
+				<div class="info">
+					<p><a rel="license" hreflang="en" target="_blank" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br /><span>2015 &#169; </span><a hreflang="es" target="_blank" type="text/html" href="http://cabrera-dcc.github.io" property="cc:attributionName" rel="cc:attributionURL">Daniel Cabrera Cebrero</a>. Esta obra está bajo una <a rel="license" hreflang="es" target="_blank" type="text/html" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es_ES">licencia de Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional de Creative Commons</a>.</p>
+					<div class="techs">
+						<div id="logo-html" class="tech"></div>
+						<div id="logo-css" class="tech"></div>
+						<div id="logo-jquery" class="tech"></div>
+						<div id="logo-jqueryui" class="tech"></div>
+						<div id="logo-stylus" class="tech"></div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</main>
+	<script type="text/javascript" src="../js/resources/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="../js/resources/jquery-ui-1.11.4.min.js"></script>
+	<script type="text/javascript" src="../js/resources/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">$(function(){ $('#tabs').tabs({ event: "mouseover" }); });</script>
+	<script type="text/javascript">$(function(){ $('#menu').slicknav(); });</script>
+</body>
+</html>
