@@ -8,20 +8,17 @@
 
  * Generated with Stylus.
  */
-#contact-info p,
-#portfolio-info p {
+.attribution p {
   font-style: italic;
+  font-size: 65%;
 }
 .info {
   display: inline-block;
-  margin-bottom: 10px;
-  margin-left: 15px;
-  margin-top: 40px;
+  margin: 10px;
   vertical-align: top;
 }
 .info p {
   margin: 10px 0;
-  font-size: 0.85em;
 }
 #logo-html {
   background: url("../../images/html5-logo.png");
@@ -43,6 +40,12 @@
   background: url("../../images/stylus-logo.png");
   background-size: 100% 100%;
 }
+.main-info {
+  margin-top: 40px;
+}
+p {
+  text-align: justify;
+}
 #photo {
   background: url("../../images/photo.png");
   background-size: 100% 100%;
@@ -55,18 +58,14 @@
   border: 0;
 }
 .techs {
-  margin-top: 50px;
+  margin: 25px 0;
   text-align: center;
 }
 .techs .tech {
   display: inline-block;
-  height: 70px;
-  width: 70px;
 }
 .ui-tabs {
   margin: auto;
-  margin-top: 50px;
-  width: 60%;
 }
 .ui-tabs .ui-tabs-nav {
   background-color: #fff;
@@ -75,13 +74,11 @@
 }
 .ui-tabs .ui-tabs-nav li {
   border: 0;
-  font-size: 90%;
   font-weight: 700 !important;
   margin-bottom: 1px;
 }
 .ui-tabs .ui-tabs-nav li a {
   background-color: #fff;
-  font-size: 95%;
 }
 .ui-tabs .ui-tabs-nav li.ui-tabs-active {
   border-bottom: 1px solid #99000d;
@@ -93,13 +90,42 @@
   color: #888;
 }
 @media screen and (max-width: 767px) {
+  .info p {
+    font-size: 75%;
+  }
   #photo {
     height: 394px;
     width: 240px;
   }
+  .tech {
+    height: 50px;
+    width: 50px;
+  }
   .ui-tabs {
     margin-top: 10px;
     width: 100%;
+  }
+  .ui-tabs .ui-tabs-nav li {
+    font-size: 85%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .info p {
+    font-size: 85%;
+  }
+  .tech {
+    height: 70px;
+    width: 70px;
+  }
+  .ui-tabs {
+    margin-top: 50px;
+    width: 60%;
+  }
+  .ui-tabs .ui-tabs-nav li {
+    font-size: 95%;
+  }
+  .ui-tabs .ui-tabs-panel {
+    margin: 0 20px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
