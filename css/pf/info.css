@@ -1,6 +1,6 @@
 /*
  * Theme Name: Portfolio (Info site)
- * Version: Beta2 (rev. 201508021)
+ * Version: Beta2 (rev. 201508022)
  * Author: cabrera-dcc (https://github.com/cabrera-dcc)
  * Author URL: http://cabrera-dcc.github.io
  * License: MIT License;
@@ -77,10 +77,14 @@
   border: 0;
   font-size: 90%;
   font-weight: 700 !important;
+  margin-bottom: 1px;
 }
 .ui-tabs .ui-tabs-nav li a {
   background-color: #fff;
   font-size: 95%;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+  border-bottom: 1px solid #99000d;
 }
 .ui-tabs .ui-tabs-nav li.ui-tabs-active a {
   color: #99000d;
