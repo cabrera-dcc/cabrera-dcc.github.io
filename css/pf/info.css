@@ -12,6 +12,9 @@
   font-style: italic;
   font-size: 65%;
 }
+.bold {
+  font-weight: bold;
+}
 .info {
   display: inline-block;
   margin: 10px;
@@ -19,6 +22,9 @@
 }
 .info p {
   margin: 10px 0;
+}
+.italic {
+  font-style: italic;
 }
 #logo-html {
   background: url("../../images/html5-logo.png");
@@ -53,6 +59,11 @@ p {
   height: 492px;
   margin-top: 20px;
   width: 300px;
+}
+.separator {
+  background-color: #99000d;
+  min-height: 1px;
+  width: 100%;
 }
 #tabs {
   border: 0;
