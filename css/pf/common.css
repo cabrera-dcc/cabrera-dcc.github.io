@@ -1,6 +1,6 @@
 /*
  * Theme Name: Portfolio (Common CSS)
- * Version: Beta2 (rev. 20150819)
+ * Version: Beta2 (rev. 20150825)
  * Author: cabrera-dcc (https://github.com/cabrera-dcc)
  * Author URL: http://cabrera-dcc.github.io
  * License: MIT License;
@@ -117,9 +117,9 @@ p {
 }
 @media screen and (max-width: 767px) {
   .hvr-shutter-out-vertical:before {
-    -moz-border-radius: 5;
-    -webkit-border-radius: 5;
-    border-radius: 5;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
   }
   .logo {
     height: 24px;
