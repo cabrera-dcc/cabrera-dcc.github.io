@@ -1,6 +1,6 @@
 /*
  * Theme Name: Portfolio (Info site)
- * Version: Beta2 (rev. 201508023)
+ * Version: Beta2 (rev. 201508025)
  * Author: cabrera-dcc (https://github.com/cabrera-dcc)
  * Author URL: http://cabrera-dcc.github.io
  * License: MIT License;
@@ -11,6 +11,7 @@
 .attribution p {
   font-style: italic;
   font-size: 65%;
+  margin: 5px 0;
 }
 .bold {
   font-weight: bold;
@@ -102,6 +103,10 @@ p {
 }
 .ui-state-default a:link {
   color: #888;
+}
+.ui-widget-content a {
+  color: #0645ad;
+  text-decoration: none;
 }
 @media screen and (max-width: 767px) {
   .info p {
