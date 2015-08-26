@@ -1,6 +1,6 @@
 /*
  * Theme Name: Portfolio (Common CSS)
- * Version: Beta2 (rev. 20150825)
+ * Version: Beta2 (rev. 20150826)
  * Author: cabrera-dcc (https://github.com/cabrera-dcc)
  * Author URL: http://cabrera-dcc.github.io
  * License: MIT License;
@@ -82,6 +82,14 @@ nav ul li a {
   color: #000;
   font-weight: bold;
   text-decoration: none;
+}
+noscript {
+  border-bottom: 1px solid #99000d;
+  color: #99000d;
+  display: block;
+  font-size: 90%;
+  font-weight: bold;
+  text-align: center;
 }
 p {
   font-family: 'Open Sans', sans-serif;
