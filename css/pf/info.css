@@ -1,6 +1,6 @@
 /*
  * Theme Name: Portfolio (Info site)
- * Version: Beta2 (rev. 201508027)
+ * Version: Beta2 (rev. 20150902)
  * Author: cabrera-dcc (https://github.com/cabrera-dcc)
  * Author URL: http://cabrera-dcc.github.io
  * License: MIT License;
@@ -117,7 +117,7 @@ p {
 }
 @media screen and (max-width: 767px) {
   .footer a.html5-badge {
-    margin-right: -10px;
+    margin-right: -30px;
   }
   .footer a.html5-badge img {
     height: 30px;
