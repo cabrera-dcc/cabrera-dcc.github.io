@@ -1,0 +1,172 @@
+/*!
+ * Theme Name: Portfolio (Common CSS)
+ * Version: Beta2 (rev. 20150826)
+ * Author: cabrera-dcc (https://github.com/cabrera-dcc)
+ * Author URL: http://cabrera-dcc.github.io
+ * License: MIT License;
+ * License URI: http://opensource.org/licenses/MIT;
+
+ * Generated with Stylus.
+ */
+@import "../includes/variables/pf-variables"
+@import "../includes/mixins/browser-support"
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif:400,700italic")
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+*
+	margin 0
+	padding 0
+
+body
+	background-color white
+	height 100%
+	min-width 300px
+	width max-width
+
+.borderline
+	background-color red
+	min-height 5px
+	width max-width
+
+footer
+	height 30px
+
+h1
+	font-family 'Raleway', sans-serif
+	
+h2
+	font-family: 'Raleway', sans-serif;
+
+header
+	margin-bottom 20px
+	text-align center
+	h2
+		font-family: 'Droid Serif', serif;
+
+.logo
+	&#github-logo
+		background url(github-logo-url)
+		background-size background-social-logo-size
+	&#facebook-logo
+		background url(facebook-logo-url)
+		background-size background-social-logo-size
+	&#linkedin-logo
+		background url(linkedin-logo-url)
+		background-size background-social-logo-size
+	&#twitter-logo
+		background url(twitter-logo-url)
+		background-size background-social-logo-size
+	&:hover
+		transform(scale(1.2));
+
+nav
+	font-family 'Raleway', sans-serif
+	width max-width
+	ul
+		text-align center
+		li
+			list-style none
+			&#current-page
+				background-color #ddd
+			a
+				color black
+				font-weight bold
+				text-decoration none
+
+noscript
+	border-bottom 1px solid red
+	color red
+	display block
+	font-size 90%
+	font-weight bold
+	text-align center
+
+p
+	font-family: 'Open Sans', sans-serif
+	
+.slicknav_menu
+	background-color #888
+	.slicknav_icon
+		margin 0
+	.slicknav_menutxt
+		display none
+	.slicknav_nav
+		text-align center
+		li
+			border-bottom 1px solid red
+		li:last-child
+			border 0
+		a:hover
+			color #fff
+			font-weight bold
+
+.social-networks
+	text-align center
+	ul
+		display block
+		li
+			display inline-block
+			list-style none
+			margin 10px
+			a
+				display block
+				margin -2px
+				padding 5px
+			
+@media screen and (max-width max-small-breakpoint)
+	.hvr-shutter-out-vertical:before
+		border-radius(5px)
+	.logo
+		height small-social-logo-y
+		width small-social-logo-x
+	.medium-menu
+		display none
+	nav
+		ul
+			margin-bottom 5px
+			li
+				margin auto
+				width max-width
+				&#current-page
+					border-radius 0
+				a
+					padding 10px 0
+					width max-width
+	.slicknav_menu
+		display block
+	.small-nav
+		position absolute
+		margin 20px 10px 0 10px
+	.social-networks
+		text-align right
+		ul
+			margin auto
+			margin-right 5px
+			margin-top 10px
+			li
+				a
+					height small-social-logo-y - 2px
+					width small-social-logo-x - 2px
+
+@media screen and (min-width min-medium-breakpoint)
+	.logo
+		height medium-social-logo-y
+		width medium-social-logo-x
+	nav
+		ul
+			li
+				display inline-block
+				margin 10px 1%
+				&#current-page
+					border-radius(5px)
+				a
+					padding 10px 12px
+					min-width 80px
+	.slicknav_menu
+		display none
+	.social-networks
+		li
+			a
+				height medium-social-logo-y - 4px
+				width medium-social-logo-x - 4px
