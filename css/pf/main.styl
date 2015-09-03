@@ -1,0 +1,49 @@
+/*!
+ * Theme Name: Portfolio (Main site)
+ * Version: Beta2 (rev. 20150821)
+ * Author: cabrera-dcc (https://github.com/cabrera-dcc)
+ * Author URL: http://cabrera-dcc.github.io
+ * License: MIT License;
+ * License URI: http://opensource.org/licenses/MIT;
+
+ * Generated with Stylus.
+ */
+@import "../includes/variables/pf-variables"
+@import "../includes/mixins/browser-support"
+
+h1
+	margin-top 50px
+	margin-bottom 15px
+
+h2
+	color red
+	font-style italic
+	margin-bottom 30px
+
+main
+	#short-info
+		text-align center
+		#main-photo
+			background url(main-photo-url)
+			background-size 100% 100%
+			margin auto
+		#basic-info
+			text-align center
+
+@media screen and (max-width max-small-breakpoint)
+	h1
+		margin-top 10px
+	main
+		#short-info
+			#main-photo
+				border-radius(small-main-photo-x / 2)
+				height small-main-photo-y
+				width small-main-photo-x
+	
+@media screen and (min-width min-medium-breakpoint)
+	main
+		#short-info
+			#main-photo
+				border-radius(medium-main-photo-x / 2)
+				height medium-main-photo-y
+				width medium-main-photo-x
