@@ -20,6 +20,15 @@ Nice to meet you. Come in and take a look!
 
 [[beta2.20150819.608bfb0]][1]
 
+Profiles
+--------
+
+* [LinkedIn][11]
+* [Twitter][12]
+* [Facebook][13]
+* [Wordpress][14]
+* [Delicious][15]
+
 [1]: http://cabrera-dcc.github.io
 [2]: https://en.wikipedia.org/wiki/Responsive_web_design
 [3]: https://en.wikipedia.org/wiki/HTML5
@@ -30,3 +39,8 @@ Nice to meet you. Come in and take a look!
 [8]: http://creativecommons.org/licenses/by-nc-sa/4.0
 [9]: https://github.com/cabrera-dcc/cabrera-dcc.github.io/blob/master/LICENSE
 [10]: http://opensource.org/licenses/MIT
+[11]: https://www.linkedin.com/in/cabreradcc
+[12]: https://twitter.com/cabrera_dcc
+[13]: https://www.facebook.com/cabrera.dcc
+[14]: https://danikace.wordpress.com
+[15]: https://delicious.com/cabrera_dcc
