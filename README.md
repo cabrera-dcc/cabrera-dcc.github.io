@@ -18,8 +18,6 @@ The website and its contents is under a [Creative Commons BY-NC-SA 4.0 Internati
 
 Nice to meet you. Come in and take a look!
 
-[[beta2.20150819.608bfb0]][1]
-
 Profiles
 --------
 
@@ -28,6 +26,8 @@ Profiles
 * [Facebook][13]
 * [Wordpress][14]
 * [Delicious][15]
+
+[**[beta2.20150819.608bfb0]**][1]
 
 [1]: http://cabrera-dcc.github.io
 [2]: https://en.wikipedia.org/wiki/Responsive_web_design
