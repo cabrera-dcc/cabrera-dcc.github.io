@@ -1,6 +1,6 @@
 /*
  * Theme Name: Portfolio (Info site)
- * Version: Beta2 (rev. 20150902)
+ * Version: Beta2 (rev. 20151124)
  * Author: cabrera-dcc (https://github.com/cabrera-dcc)
  * Author URL: http://cabrera-dcc.github.io
  * License: MIT License;
@@ -58,7 +58,8 @@
   background-size: 100% 100%;
 }
 .main-info {
-  margin: 40px 0 10px 20px;
+  margin: auto;
+  display: block;
 }
 p {
   text-align: justify;
@@ -70,6 +71,7 @@ p {
   height: 492px;
   margin-top: 20px;
   width: 300px;
+  display: none;
 }
 .separator {
   background-color: #99000d;
